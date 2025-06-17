@@ -16,9 +16,11 @@ student = {
 }
 
 #access
-"""print(student["name"])
+"""
+print(student["name"])
 print(student.get("age"))
-print(student.get("phone"))""" #  যদি key না থাকে, error দেবে না get() function এ)
+print(student.get("phone"))
+""" #  যদি key না থাকে, error দেবে না get() function এ)
 
 # adding new data
 student['phone'] = "01704765585"
