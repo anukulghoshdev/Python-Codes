@@ -82,4 +82,16 @@ almim.pop('age')
 almim.popitem()
 print(almim)
 
+#practice problem
+numbers = {
+    "১" : "one", 
+    "২" : "two",
+    "৩" : "three", 
+    "৪" : "four", 
+    "৫" : "five"
+}
+del numbers['৩']
+print(numbers)
 
+for key, values in items(): 
+    print(f"{key} -> {values}")
