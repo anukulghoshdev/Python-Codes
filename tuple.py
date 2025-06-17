@@ -33,6 +33,28 @@ my_list.remove(1)
 
 tup = (1,3,4,5)
 print(tup[3])
-tup[3] = 34
-print(tup) # TypeError: 'tuple' object does not support item assignment
+# tup[3] = 34
+# print(tup) # TypeError: 'tuple' object does not support item assignment
 
+# Practice problem 1: find even numbers from a tuple 
+t5 = (10,15,22,33,40,55,60)
+even_numbers = tuple(i for i in t5 if i % 2 == 0)
+print(even_numbers)
+
+# Practice problem 2: find bigger numbers from a tuple 
+t6 = (11, 32, 5, 24, 64, 29)
+largest = max(t6)
+print("Largest Number: ", largest)
+
+# problem 3: tuple reverse 
+t7 = (10, 20, 30, 40)
+reversed_tuple = t7[::-1] #[start:stop:step]
+print(reversed_tuple)
+
+# problem4: add two tuples
+t1 = (1,2,3)
+t2 = (4,5,6)
+combined = t1 + t2 
+new_tuple = combined + (5,)
+print(combined)
+print(new_tuple)
