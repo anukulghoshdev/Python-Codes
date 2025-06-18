@@ -1,4 +1,5 @@
 # list mutable, different value allow, 
+# List items are ordered, changeable, and allow duplicate values.
 """
 mixed = [1, "Hello", 3.14, True]
 numbers = [10, 20, 30, 40, 50]

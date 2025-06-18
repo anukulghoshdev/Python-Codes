@@ -36,6 +36,11 @@ print(tup[3])
 # tup[3] = 34
 # print(tup) # TypeError: 'tuple' object does not support item assignment
 
+# using enumerate() 
+students = ("Anik", "Rifat", "Sumaiya")
+for index, name in enumerate(students):
+    print(index, name)
+
 # Practice problem 1: find even numbers from a tuple 
 t5 = (10,15,22,33,40,55,60)
 even_numbers = tuple(i for i in t5 if i % 2 == 0)
