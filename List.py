@@ -81,6 +81,16 @@ sorted_numbers = sorted(numbers, reverse=True)
 print(numbers)
 print(sorted_numbers)
 
+# list enumerate()
+names = ["Rubel", "Tomal", "Koushik"]
+
+for i  in range(len(names)):
+    print(i, names[i])
+
+for index, name in enumerate(names, start=0):
+    print(index, name) # more pythonic
+
+
 #2D list
 matrix = [
     [1, 2, 3],
