@@ -95,5 +95,5 @@ numbers = {
 del numbers['৩']
 print(numbers)
 
-for key, values in items(): 
+for key, values in numbers.items(): 
     print(f"{key} -> {values}")
