@@ -87,5 +87,29 @@ print("Element after removal of nested tuple:", res)
 
 # tuple unpacking
 t = (2,4,5,6,7)
-a,b,c = t
-print(a,b,c)
+a,b,c,d,e = t
+print(a,b,c,d,e)
+
+#assignment 1: 
+tup1 = (3,2,6,4,6)
+print(tup1[0], tup1[-1])
+for i in tup1:
+    print(f"all items {i}")
+print(tup1[1:4])
+
+# tuple built-in methods - count(), index()
+tu1 = (3, 4, 6, 7)
+tu2 = (23, 44, 35, 64)
+
+print(tu1.count(4))   # কতবার 4 আছে
+print(tu1.index(6))   # 6 এর index
+
+tu3 = tu1 + tu2         # concatenation
+print(tu3)
+
+print(tu1 * 3)        # repeat 3 times
+
+sorted_tuple = tuple(sorted(tu1))  # sorted tuple
+print(sorted_tuple)
+
+
