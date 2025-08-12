@@ -84,3 +84,8 @@ for count, ele in enumerate(test_tup):
 
 # printing result
 print("Element after removal of nested tuple:", res)
+
+# tuple unpacking
+t = (2,4,5,6,7)
+a,b,c = t
+print(a,b,c)
