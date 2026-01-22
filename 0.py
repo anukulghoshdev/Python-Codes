@@ -5,12 +5,14 @@
 #Number(int, float)
 #string (done)
 
-
-#List, tuple, set, dictionary{array}
-
 #conditions(if else, )
 #Loop(for, while)
 #function
+
+#List, 
+# tuple, 
+# set, 
+# dictionary{array}
 
 #class/objects
 #inheritance
