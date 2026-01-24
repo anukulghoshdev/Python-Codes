@@ -8,6 +8,7 @@ t1 = (1,2,3,4)
 t2 = (1, "hello", 3.14, True) # multiple item tuple
 t3 = (5,) #only one item, but must be comma(,)
 t4 = tuple([1,2,3,4])
+print(t4)
 
 # accessing tuple
 t = (10, "anukul", 4.75, True)

@@ -28,21 +28,3 @@ print(x)
 myDict2["Height"] = 4.5
 print(x)
 print(myDict2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

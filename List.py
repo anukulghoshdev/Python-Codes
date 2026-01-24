@@ -1,6 +1,7 @@
 # list mutable, different value allow, 
 # List items are ordered, changeable, and allow duplicate values.
-"""
+
+
 mixed = [1, "Hello", 3.14, True]
 numbers = [10, 20, 30, 40, 50]
 
@@ -12,7 +13,7 @@ popped = numbers.pop() #100
 print(popped) 
 
 print(numbers)
-"""
+
 
 #list slicing 
 numbers = [10, 20, 30, 40, 50, 60, 70]
@@ -20,6 +21,7 @@ print(numbers[::-1])
 #[start, end, steps]  -1 মানে উল্টো দিকে যাবে, অর্থাৎ লিস্ট রিভার্স হবে!
 
 nums = [5, 10, 15, 20, 25, 30, 35]
+print(nums[::2])  # [10, 15, 20, 25]
 print(nums[::2][::-1]) #***
 
 #List Comprehension***
@@ -83,13 +85,13 @@ print(sorted_numbers)
 
 # list enumerate()
 names = ["Rubel", "Tomal", "Koushik"]
-
 for i  in range(len(names)):
     print(i, names[i])
 
-for index, name in enumerate(names, start=0):
-    print(index, name) # more pythonic
 
+names = ["Rubel", "Tomal", "Koushik"]
+for index, name in enumerate(names, start=2):
+    print(index, name)
 
 #2D list
 matrix = [
